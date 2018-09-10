@@ -1,0 +1,9 @@
+{
+    "event_id": "session_public_storage_setup",
+    "execute_order": 10,
+    "callback_class": "SV\\SessionCache\\SessionStorage",
+    "callback_method": "publicSessionSetup",
+    "active": true,
+    "hint": "",
+    "description": "Create a handler to inject a dedicated cache handler for public sessions"
+}
