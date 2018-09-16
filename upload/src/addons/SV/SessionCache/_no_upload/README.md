@@ -6,7 +6,10 @@ Defines a "sessionCache" section in addition to of a "cache" section. Takes all 
 
 
 Note; 
-- if no 'sessionCache' section is defined or it is disabled, falls back on existing cache/mysql storage
+- if no 'sessionCache' section is defined or it is disabled, falls back on existing cache/MySQL storage
+- Xenforo Session handling does not interact with php sessions
+- Does not require a particular caching solution
+- Only affects public sessions. Installer/Admin sessions are hard coded in XenForo 2 to use MySQL storage
 
 Provided scripts:
 
